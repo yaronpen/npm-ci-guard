@@ -1,0 +1,35 @@
+{
+  "name": "npm-ci-guard",
+  "version": "1.0.0",
+  "description": "Guard your npm CI by catching lockfile and npm-version issues before they hit main.",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "npm-ci-guard": "dist/cli.mjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "ts-node src/cli.ts",
+    "lint": "eslint src --ext .ts",
+    "test": "node --test"
+  },
+  "keywords": [
+    "npm",
+    "ci",
+    "lockfile",
+    "github-actions",
+    "devops"
+  ],
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
