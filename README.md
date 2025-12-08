@@ -26,6 +26,10 @@ Typical pain:
 > will install deterministically in CI (and across machines), and if not, what to fix.
 
 ## Install / Usage
+Installation:
+```bash
+npm i npm-ci-guard
+```
 
 You can run it via `npx` (no global install needed):
 
