@@ -4,6 +4,7 @@
   "description": "Guard your npm CI by catching lockfile and npm-version issues before they hit main.",
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/yaronpen/npm-ci-guard",
   "bin": {
     "npm-ci-guard": "dist/cli.mjs"
   },
